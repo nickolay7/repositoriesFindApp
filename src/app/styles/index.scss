@@ -1,0 +1,18 @@
+@import "./themes/themes.scss";
+
+body {
+	background-color: #1F8A70;
+	font: 16px/20px Arial, sans-serif;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 95vh;
+}
+
+@media (max-height: 400px) {
+	body {
+		height: auto;
+		margin-top: 20px;
+	}
+}

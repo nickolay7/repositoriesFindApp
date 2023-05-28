@@ -1,0 +1,23 @@
+{
+	"include": [
+		"**/*.config.ts",
+		"./src/**/*.tsx",
+		"./src/**/*.jsx",
+		"./src/**/*.ts",
+		"./src/types.d.ts"
+	],
+	"compilerOptions": {
+		"skipLibCheck": true,
+		"esModuleInterop": true,
+		"moduleResolution": "node",
+		"allowSyntheticDefaultImports": true,
+		"isolatedModules": true,
+		"target": "es2017",
+		"strict": true,
+		"jsx": "react-jsx",
+		"baseUrl": ".",
+		"paths": {
+			"*": ["./src/*"]
+		}
+	}
+}
