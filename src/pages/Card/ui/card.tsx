@@ -6,7 +6,7 @@ import { useQuery as getQuery } from "@apollo/client";
 import { RepoCard } from "entities/repository/ui/repoCard/repoCard";
 
 import { GET_INFO } from "./card.graphql";
-import * as styles from "./card.module.css";
+import styles from "./card.module.scss";
 
 export function Card(): ReactElement {
 	const { id } = useParams();
