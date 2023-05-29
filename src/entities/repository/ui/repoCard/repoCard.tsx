@@ -4,7 +4,7 @@ import { NavLink } from "react-router-dom";
 import { stringifyDate } from "shared/lib/helpers/stringifyDate";
 
 import { Repository } from "../../model/types/repository";
-import styles from "./card.module.css";
+import styles from "./card.module.scss";
 
 export interface RepoCardProps {
 	repo: Repository;
